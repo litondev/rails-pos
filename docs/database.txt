@@ -1,0 +1,64 @@
+users 
+ -> photo 
+    -> string 
+    -> 100
+
+ -> username 
+    -> string
+    -> 100
+
+ -> email 
+    -> string
+    -> 100 
+    
+ -> password 
+    -> 255
+    
+units 
+ -> name 
+    -> string 
+    -> 100
+
+items  
+ -> code 
+    -> string 
+    -> 100
+
+ -> name 
+    -> string 
+    -> 100
+
+ -> photo
+    -> string 
+    -> 100
+ 
+ -> unit_id 
+    -> int 
+ 
+ -> rack
+    -> string 
+    -> 50
+
+ -> stock
+    -> decimal
+
+sellings 
+ -> code 
+    -> string 
+    -> 100
+
+ -> grand_total 
+    -> decimal
+
+selling_details 
+ -> product_id 
+    -> int
+
+ -> price 
+    -> decimal
+
+ -> quantity
+    -> decimal
+
+ -> total
+    -> decimal
